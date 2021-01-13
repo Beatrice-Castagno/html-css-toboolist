@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-color: lightgrey;
+  font-family: Helvetica;
+}
+
+  /* intestazione */
+
+header {
+
+ padding: 18px;
+ background-color: white;
+ margin-bottom:20px;
+}
+
+
+.logo {
+ vertical-align: middle;
+}
+
+#scritta-logo{
+
+ margin-left: 5px;
+ vertical-align: middle;
+ display: inline;
+}
+  /* /intestazione */
+
+.contenitore {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+  /* sezione bottoni  */
+
+.box-bottoni {
+
+  border-bottom: 2px solid lightgrey;
+  padding: 15px 20px;
+}
+
+.box-contenuto
+{
+  padding: 35px;
+}
+
+.bottone {
+  font-weight: bold;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  color: 	#C0C0C0;
+}
+
+.bottone-colorato {
+  background-color: deepskyblue;
+  color: white;
+}
+
+/* /sezione bottoni */
+
+/* lista */
+
+h2 {
+  font-size: 22px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+ /* /lista */
+
+ /* sezione spunte  */
+
+.cerchio {
+
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50px;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.spunta-verde {
+  border: 1px solid lightgreen;
+  color:lightgreen;
+}
+
+.croce-rossa {
+  border: 1px solid red;
+  color:red;
+}
+/* /sezione spunte */
+
+/* sezione etichette */
+
+.etichetta {
+  font-family: Helvetica;
+  margin-left: 5px;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: white;
+}
+.etichetta-blu{
+  background-color: #00BFFF;
+}
+
+.etichetta-viola{
+  background-color: #BA55D3;
+}
+
+.etichetta-verde{
+  background-color: #00FA9A;
+}
+
+.etichetta-arancione{
+  background-color: #F4A460;
+}
+.etichetta-rosa{
+  background-color: 	#FFC0CB;
+}
+.etichetta-verdechiaro{
+  background-color: 	#98FB98;
+}
+
+/* /sezione etichette */
